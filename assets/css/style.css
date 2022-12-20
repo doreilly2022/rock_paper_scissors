@@ -46,6 +46,7 @@ h3 {
 }
 
 
+
 /* --------- Score board*/
 .display-moves {
     display: flex;
@@ -56,6 +57,14 @@ h3 {
 .move {
     border-radius: 50%;
     border-width: 4px;
+}
+#p-move{
+    width: 100%;
+    max-width: 300px;
+}
+#c-move{
+    width: 100%;
+    max-width: 300px;
 }
 .seperator {
     font-size:5em;
