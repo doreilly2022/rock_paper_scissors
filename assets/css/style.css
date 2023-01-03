@@ -37,22 +37,21 @@ h3 {
     font-weight: bolder;
 }
 .actions {
-    max-width: 800px;
+    display: flexbox;
+}
+
+.options {
     display: flex;
     flex-wrap: wrap;
+    max-width: 800px;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 20px;
-}
-.options {
-    flex: 1 1 3%;
     border-radius: 50%;
     padding:10%;
     animation-name: anim-fade;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    width: 100%;
-    max-width: 200px;
 }
 /* --------- Score board*/
 .display-moves {
