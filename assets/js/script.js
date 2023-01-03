@@ -70,9 +70,9 @@ function updateScore() {
 function checkWinner() {
   if (pScore === 5 || cScore === 5) {
     const winner =
-      pScore === 5
-        ? "You win the game! Congratulations!"
-        : "Computer wins the game! Try again next time!";
+      pScore === 5;
+        ("You win the game! Congratulations!");
+        ("Computer wins the game! Try again next time!");
     alert(winner);
     return true;
   }
